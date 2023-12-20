@@ -1,0 +1,78 @@
+/*Main Section*/
+#main{                 
+    text-align:center;
+}
+/* Header Section*/
+h1,h2{
+    color:rgb(123, 0, 255);
+    margin-bottom:-5px;
+}
+.ttt{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.row{
+    display:flex;
+}
+/*css style of each grid to be displayed*/
+.cell{
+    border:none;
+    width:80px;
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    text-align:center;
+    cursor:pointer;
+    font: bold 60px comic sans ms;
+}
+.cell:active{
+    outline:none;
+}
+/* 3*3 grid styles of each grid */
+#b1{
+    border-bottom:1px solid rgb(58, 2, 2);
+    border-right:1px solid rgb(58, 2, 2);
+}
+#b2{
+    border-bottom:1px solid rgb(58, 2, 2);
+    border-right:1px solid rgb(58, 2, 2);
+    border-left:1px solid rgb(58, 2, 2);
+}
+#b3{
+    border-bottom:1px solid rgb(58, 2, 2);
+    border-left:1px solid rgb(58, 2, 2);
+}
+#b4{
+    border-top:1px solid rgb(58, 2, 2);
+    border-bottom:1px solid rgb(58, 2, 2);
+    border-right:1px solid rgb(58, 2, 2);
+}
+#b5{
+    border:1px solid rgb(58, 2, 2);
+}
+#b6{
+    border-top:1px solid rgb(58, 2, 2);
+    border-bottom:1px solid rgb(58, 2, 2);
+    border-left:1px solid rgb(58, 2, 2);
+}
+#b7{
+    border-top:1px solid rgb(58, 2, 2);
+    border-right:1px solid rgb(58, 2, 2);
+}
+#b8{
+    border-top:1px solid rgb(58, 2, 2);
+    border-right:1px solid rgb(58, 2, 2);
+    border-left:1px solid rgb(58, 2, 2);
+}
+#b9{
+    border-top:1px solid rgb(58, 2, 2);
+    border-left:1px solid rgb(58, 2, 2);
+}
+/* CSS style for result display */
+#print{
+    color:rgb(123, 0, 255);
+    font-size:20px;
+}
