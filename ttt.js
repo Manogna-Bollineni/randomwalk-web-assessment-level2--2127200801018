@@ -1,4 +1,4 @@
-function myfunc() {   //function that is called when each tab performs
+function myfunc() {   //function that is called when each tab enters a value
     var b1, b2, b3, b4, b5, b6, b7, b8, b9;
     b1 = document.getElementById("b1").value;
     b2 = document.getElementById("b2").value;
@@ -116,7 +116,7 @@ function myfunc() {   //function that is called when each tab performs
         b5btn.style.color = "red";
         b6btn.style.color = "red";
     }
-    // Checking of Player X finish
+    // Check for the winning of player O and disable all the other fields
     else if ((b1 == "0" || b1 == "0") && (b2 == "0" || b2 == "0") && (b3 == "0" || b3 == "0")) {
         document.getElementById("print").innerHTML = "Player 0 won";
         b4btn.disabled = true;
@@ -231,7 +231,7 @@ function myfunc() {   //function that is called when each tab performs
 } 
 function myfunc_2() {
     location.reload();
-    b1 = b2 = b3 = b4 = b5 = b6 = b7 = b8 = b9 = '';
+    b1 = b2 = b3 = b4 = b5 = b6 = b7 = b8 = b9 = ' ';
 }
 //functions check for the turn of the player and put accordingly the values X or 0
 flag = 1;
