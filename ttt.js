@@ -228,6 +228,10 @@ function myfunc() {   //function that is called when each tab performs
             document.getElementById("print").innerHTML = "Player 0 Turn";
         }
     }
+} 
+function myfunc_2() {
+    location.reload();
+    b1 = b2 = b3 = b4 = b5 = b6 = b7 = b8 = b9 = '';
 }
 //functions check for the turn of the player and put accordingly the values X or 0
 flag = 1;
